@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.common-header {
+  font-size: 20px;
+}
+
+.common-price::after {
+  content: '₽';
+}
